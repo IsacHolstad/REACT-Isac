@@ -1,13 +1,11 @@
 import './App.css';
+import Counter from "./Counter";
 
 function App() {
-  return (
-      <div>
-          <button>-</button>
-          <span>0</span>
-          <button>+</button>
-      </div>
-  );
+  return  (
+      <Counter initialCount={0}></Counter>
+
+  )
 }
 
 export default App;
